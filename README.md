@@ -1,1 +1,2 @@
-# tanki-readable-protections
+### tanki-readable-protections
+paste into tampermonkey extension
