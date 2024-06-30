@@ -20,7 +20,10 @@ const obj = {
 
 const interval = setInterval(() => {
 	// 1
-        document.querySelector(".ShopCategoryOfferSectionStyle-innerContainer").children[0].style.display = 'none';
+        const shopContainer = document.querySelector(".ShopCategoryOfferSectionStyle-innerContainer");
+        if(shopContainer) {
+			shopContainer.children[0].style.display = 'none';
+		}
 
         // 2
 	const garageItemsWrapper = document.querySelectorAll(
